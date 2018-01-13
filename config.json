@@ -1,0 +1,31 @@
+{
+  "Frontend": {
+    "frontendAddr": "0.0.0.0",
+    "frontendPort": "11119",
+    "frontendTLS": false,
+    "frontendTLSCert": "cert.pem",
+    "frontendTLSKey": "key.pem",
+    "frontendAllowedCommands": [
+      {
+        "frontendCommand": "ARTICLE"
+      }
+    ]
+  },
+  "Backend": [
+    {
+      "backendName": "ovpn.to - 1",
+      "backendAddr": "news.usenetexample.net",
+      "backendPort": "563",
+      "backendTLS": true,
+      "backendUser": "xxx",
+      "backendPass": "xxx",
+      "backendConns": 50
+    }
+  ],
+  "Users": [
+    {
+      "Username": "ovpn1",
+      "Password": "$2a$10$QPz/0lGEsw5HOHFQ0bAW3OZEb9bsxTfdUOXa9CqaoYj1xbtuAqylC"
+    }
+  ]
+}
